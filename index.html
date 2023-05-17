@@ -76,8 +76,21 @@
       </div>
     </nav>
 
-    <header id="hero-section" class="text-light text-end py-5 mt-5">
-      <div class="container">
+    <header id="hero-section" class="text-light text-end mt-5 hero-container">
+      <div class="hero__background">
+        <video
+          class="hero__background-video"
+          autoplay="true"
+          muted="true"
+          loop="true"
+        >
+          <source src="./assets/video/hero.webm" type="video/webm" />
+          <source src="./assets/video/hero.mp4" type="video/mp4" />
+          Tu navegador no soporta videos incrustados 😢
+        </video>
+      </div>
+
+      <div class="container p-4">
         <div class="ms-auto col-12 col-md-7">
           <h1 class="display-1 fw-bold my-5">
             Comidas del fin <br />
