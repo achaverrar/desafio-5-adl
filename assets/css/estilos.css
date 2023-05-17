@@ -1,3 +1,9 @@
+:root {
+  --bs-orange-light: #fdf2e9;
+  --bs-orange: #e67e22;
+  --bs-orange-dark: #cf711f;
+}
+
 body {
   font-family: "Raleway", sans-serif;
 }
