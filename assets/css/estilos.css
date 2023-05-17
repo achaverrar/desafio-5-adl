@@ -8,6 +8,29 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+/* Buttons */
+
+.btn-orange {
+  border-color: var(--bs-orange);
+  background-color: var(--bs-orange);
+}
+.btn-outline-orange {
+  color: var(--bs-orange);
+  border-color: var(--bs-orange);
+}
+
+.btn-orange:hover,
+.btn-outline-orange:hover {
+  background-color: var(--bs-orange-dark);
+  border-color: var(--bs-orange-dark);
+  color: var(--bs-light);
+}
+
+.btn-orange:focus,
+.btn-outline-orange:focus {
+  box-shadow: 0 0 0 0.25rem rgba(230, 126, 34, 0.5);
+}
+
 /* Navbar */
 
 .navbar {
