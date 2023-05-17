@@ -8,6 +8,19 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+/* Navbar */
+
+.navbar {
+  background-color: var(--bs-orange);
+}
+
+.navbar-toggler {
+  border-width: 2px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: var(--bs-light);
+}
 /* Hero Section */
 
 #hero-section {
