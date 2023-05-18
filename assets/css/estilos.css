@@ -8,6 +8,10 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+.text-orange {
+  color: var(--bs-orange-dark);
+}
+
 /* Buttons */
 
 .btn-orange {
@@ -76,11 +80,20 @@ body {
 
 /* Mis trabajos */
 
+#mis-trabajos {
+  background-color: var(--bs-orange-light);
+}
+
 #mis-trabajos .image-top {
   height: 250px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.card {
+  border-radius: 0.75em;
+  overflow: hidden;
 }
 
 /* Contacto */
