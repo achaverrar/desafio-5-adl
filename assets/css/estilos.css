@@ -127,3 +127,14 @@ body {
   border-color: #e16805;
   box-shadow: 0 0 0 0.25rem rgba(225, 104, 5, 0.25);
 }
+
+/* Footer */
+
+.footer,
+.footer__link:hover {
+  color: var(--bs-orange-light);
+}
+.footer__link {
+  color: var(--bs-orange);
+  text-decoration: none;
+}
