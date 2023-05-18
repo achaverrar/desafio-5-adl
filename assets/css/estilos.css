@@ -78,13 +78,13 @@ body {
   object-fit: cover;
 }
 
-/* Mis trabajos */
+/* Repertorio */
 
-#mis-trabajos {
+#repertorio {
   background-color: var(--bs-orange-light);
 }
 
-#mis-trabajos .image-top {
+#repertorio .image-top {
   height: 250px;
   background-repeat: no-repeat;
   background-size: cover;
